@@ -27,7 +27,7 @@ version:
 2. Restore the macOS into a new disk image:
    ```
    macosvm --disk disk.img,size=64g --aux aux.img \
-     --restore UniversalMac_12.0.1_21A559_Restore.ipsw vm.json
+     --restore UniversalMac_14.6.1_23G93_Restore.ipsw vm.json
    ```
    (You can prepend e.g. `-c6 -r8g` if you want to increase the number of
    cores to 6 and use 8Gb of RAM). The important part here is that the
