@@ -47,14 +47,14 @@ version:
       ```
       xcode-select --install
       ```
-      and follow the on-screeninstructions. You can check that they work e.g. by typing `make`.
+      and follow the on-screen instructions. You can check that they work e.g. by typing `make`.
    4. You can enable passwordless `sudo` for admins by typing the following in Terminal:
       ```
       sudo bash -c "echo '%admin ALL = (ALL) NOPASSWD: ALL' > /etc/sudoers.d/10admins"
       ```
-      You will needs this if you want the scripts to be fully autonomous.
+      You will need this if you want the scripts to be fully autonomous.
    5. Add your ssh public key from your host user account to `~/.ssh/authorized_keys` on
-      the VM you can `ssh` into the VM without password.
+      the VM so you can `ssh` into the VM without password.
     
   Once you're done with the setup, you can shutdown the VM (either from the top-left menu
   or with `sudo shutdown -h now` in Terminal).
