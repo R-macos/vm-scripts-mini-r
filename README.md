@@ -18,7 +18,7 @@ version:
 
 1. Download the restore image for the macOS version you want to use.
    Note that is must be __same or lower__ than your host macOS version.
-   For example, for macOS 15 (Sequoia) you can use
+   For example, for macOS 14 (Sonoma) you can use
    
    ```
    curl -LO https://updates.cdn-apple.com/2024SummerFCS/fullrestores/062-52859/932E0A8F-6644-4759-82DA-F8FA8DEA806A/UniversalMac_14.6.1_23G93_Restore.ipsw
